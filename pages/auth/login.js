@@ -13,8 +13,8 @@ export default function LogIn(){
                     <Logo />
                     <form autoComplete="off">
                         <h1 className="text-2xl font-medium my-4">Welcome back !</h1>
-                        <FormControl placeHolder="Email or username"/>
-                        <FormControl placeHolder="Password"/>
+                        <FormControl placeHolder="Email or username" className="bg-gray-200"/>
+                        <FormControl placeHolder="Password" className="bg-gray-200"/>
                         <Link href="/anselme" parseHref>
                             <div  className="text-right text-blue-500 mb-5 hover:underline cursor-pointer">Forgot your password</div>
                         </Link>

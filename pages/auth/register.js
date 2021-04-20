@@ -13,10 +13,10 @@ export default function Register(){
                     <Logo />
                     <form autoComplete="off">
                         <h1 className="text-2xl font-medium my-4">Hello, Friend !</h1>
-                        <FormControl placeHolder="Full names"/>
-                        <FormControl placeHolder="Email"/>
-                        <FormControl placeHolder="Username"/>
-                        <FormControl placeHolder="Password"/>
+                        <FormControl placeHolder="Full names" className="bg-gray-200"/>
+                        <FormControl placeHolder="Email" className="bg-gray-200"/>
+                        <FormControl placeHolder="Username" className="bg-gray-200"/>
+                        <FormControl placeHolder="Password" className="bg-gray-200"/>
                         <Button>register</Button>
                         <div className="flex mt-5">
                             <div>Already have an account ? </div>
