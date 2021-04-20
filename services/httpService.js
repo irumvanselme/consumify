@@ -1,9 +1,9 @@
-import axios from "axios"
+import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:3001/api/"
+axios.defaults.baseURL = "https://consumify.herokuapp.com/api";
 
 export class Service {
     constructor() {
-        this.axios = axios
+        this.axios = axios;
     }
 }
