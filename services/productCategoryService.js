@@ -12,6 +12,10 @@ class ProductCategoryService extends Service{
     get_one(id) {
         return this.axios.get("/product-categories/"+id)
     }
+
+    get_products(id){
+        return this.axios.get("/product-categories/"+id+"/products")
+    }
 }
 
 export  default new ProductCategoryService();
