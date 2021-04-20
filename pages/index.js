@@ -1,19 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.scss";
+import Page from "../layouts/Page";
 
 export default function Home() {
-    return (
-        <div className={styles.container}>
-            <Head>
-                <title>Create Next App</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-
-            <main className={styles.main}>
-                <div className="text-red-900 text-5xl font-bold">
-                    this is anselme
-                </div>
-            </main>
-        </div>
-    );
+    return <Page title="Home page .. ">this is the home page</Page>;
 }
