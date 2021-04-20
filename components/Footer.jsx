@@ -3,8 +3,8 @@ import Button from "./common/Button";
 
 export default function Footer() {
     return (
-        <div className=" bg-gray-100 container p-12">
-            <div className="grid grid-cols-3 gap-4 p-12">
+        <div className=" bg-gray-100 container py-12">
+            <div className="grid grid-cols-3 gap-4 py-12">
                 <div>
                     <h1 className="text-4xl font-black text-gray-600 pb-8">What
                         is {process.env.NEXT_PUBLIC_APP_NAME}</h1>

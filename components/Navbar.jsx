@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Navbar() {
     return (
-        <div className="p-5 px-12 flex justify-between">
+        <div className="container py-5 flex justify-between">
             <Logo />
             <div>
                 <Link href="/auth/login" passHref>
