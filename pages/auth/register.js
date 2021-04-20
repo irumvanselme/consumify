@@ -7,7 +7,7 @@ import Page from "../../layouts/Page";
 
 export default function Register(){
     return (
-        <Page title="consumify | register ">
+        <Page title="consumify | register " useFooter={false} useNavBar={false}>
             <div className={styles.container}>
                 <div className={styles.card}>
                     <Logo />
@@ -20,7 +20,7 @@ export default function Register(){
                         <Button>register</Button>
                         <div className="flex mt-5">
                             <div>Already have an account ? </div>
-                            <Link href="/auth/login" parseHref>
+                            <Link href={"/auth/login"} parseHref>
                                 <div className="text-blue-500 ml-2 cursor-pointer hover:underline">Log in</div>
                             </Link>
                         </div>

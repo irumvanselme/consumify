@@ -7,7 +7,7 @@ import Page from "../../layouts/Page";
 
 export default function LogIn(){
     return (
-        <Page title="consumify | login">
+        <Page title="consumify | login" useFooter={false} useNavBar={false}>
             <div className={styles.container}>
                 <div className={styles.card}>
                     <Logo />
