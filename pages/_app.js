@@ -1,11 +1,15 @@
 import "../styles/globals.scss";
 import "tailwindcss/tailwind.css";
 import { AnimatePresence } from "framer-motion";
+import {useEffect} from "react";
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, router }) {
+    useEffect(() => {
+        console.log(router)
+    }, [])
     return (
-        <AnimatePresence exitBeforeEnter={true}>
-            <Component {...pageProps} />
+        <AnimatePresence exitBeforeEnter>
+            <Component {...pageProps} key={router.route}/>
         </AnimatePresence>
     );
 }
